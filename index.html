@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Esha</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+padding:20px;
+}
+
+.card{
+width:100%;
+max-width:420px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(18px);
+border-radius:25px;
+padding:30px 25px;
+text-align:center;
+box-shadow:0 15px 40px rgba(0,0,0,0.4);
+color:white;
+animation:fadeIn 1.5s ease;
+}
+
+.name{
+font-size:18px;
+margin-bottom:15px;
+color:#ffdede;
+font-weight:600;
+letter-spacing:1px;
+}
+
+.heart{
+font-size:38px;
+margin-bottom:15px;
+animation:float 2s infinite alternate;
+}
+
+h1{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.message{
+font-size:16px;
+line-height:1.8;
+color:#f5f5f5;
+margin-bottom:18px;
+}
+
+.extra{
+font-size:15px;
+color:#ffd6d6;
+margin-top:15px;
+line-height:1.6;
+}
+
+.from{
+margin-top:25px;
+font-size:16px;
+font-weight:600;
+letter-spacing:1px;
+}
+
+iframe{
+margin-top:25px;
+width:100%;
+height:80px;
+border-radius:12px;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes float{
+from{
+transform:translateY(0);
+}
+to{
+transform:translateY(-8px);
+}
+}
+
+@media(max-width:500px){
+.card{
+padding:25px 18px;
+}
+h1{
+font-size:24px;
+}
+.message{
+font-size:14px;
+}
+.extra{
+font-size:13px;
+}
+.from{
+font-size:14px;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+
+<div class="name">For Esha</div>
+
+<div class="heart">🤍</div>
+
+<h1>Just Wanted To Say...</h1>
+
+<p class="message">
+If anything I said felt sudden or awkward, I’m genuinely sorry.  
+I never meant to make things uncomfortable.  
+Sometimes honesty comes out before the right timing arrives.  
+I respect your comfort, and I only wanted things to stay simple and genuine.
+</p>
+
+<p class="extra">
+Some people unexpectedly become important, even through a small conversation.
+</p>
+
+<div class="from">
+From Aniketh
+</div>
+
+<!-- Replace YOUR_SPOTIFY_LINK -->
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0T5iIrXA4p5GsubkhuBIKV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</div>
+
+</body>
+</html>
